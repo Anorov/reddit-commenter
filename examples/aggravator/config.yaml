@@ -1,0 +1,4 @@
+username: username_here
+password: password_here
+user_agent: A Cool Bot
+log: bot.log
