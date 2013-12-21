@@ -33,7 +33,7 @@ Here is all the code you need to write a bot.
     
     @bot.submissions("iama")
     def iama(submission):
-        return "Hi %s!" % submission.author
+        return "Hi %s!" % submission.author.name
         
     @bot.comments("askreddit")
     def askreddit(comment):
