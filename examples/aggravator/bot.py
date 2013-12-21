@@ -4,7 +4,6 @@
 An aggravating Reddit bot.
 Accumulates downvotes by making irritating replies to submissions and comments.
 """
-import sys; sys.path.append("../..")
 import random, string, re
 
 import requests
