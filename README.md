@@ -52,7 +52,7 @@ Advanced Options
 
 The `submissions` and `comments` decorators also optionally accept two additional parameters:
 
-`listing` - Choose one of `"new`", `"rising`", `"hot"`, or `"controversial`". Used only for submissions, not comments.
+`listing` - Choose one of `"new"`, `"rising"`, `"hot"`, or `"controversial"`. Used only for submissions, not comments.
 
 `only` - A function with which to filter content found in the listing. For example, to only reply to comments that are longer than 200 characters, one could write:
 
