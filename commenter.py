@@ -225,5 +225,5 @@ def traverse_dict(d, start, key):
         return d[start][key]
 
     for s in key:
-        d = d[key]
+        d = d[s]
     return d
